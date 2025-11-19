@@ -6,7 +6,7 @@ export default define.page(function App({ Component }) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>deno-repro-css-modules</title>
+        <title>deno-fresh-repro-css-modules</title>
       </head>
       <body>
         <Component />

@@ -1,15 +1,15 @@
 import { Head } from "fresh/runtime";
 import { define } from "../utils.ts";
-import Foo from "../components/Foo.tsx";
+import Bar from "../components/Bar.tsx";
 
 export default define.page(function Home() {
   return (
     <>
       <Head>
-        <title>Index page</title>
+        <title>Page 1</title>
       </Head>
-      <a href="/page1">Go to Page 1</a>
-      <Foo />
+      <a href="/">Go to index</a>
+      <Bar />
     </>
   );
 });
