@@ -1,0 +1,11 @@
+.counter {
+    display: flex;
+    gap: .5rem;
+    padding: .375rem 0;
+
+    & > p {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-variant-numeric: tabular-nums;
+    }
+}
