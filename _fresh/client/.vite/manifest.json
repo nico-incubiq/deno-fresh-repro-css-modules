@@ -1,0 +1,27 @@
+{
+  "_preact.module-B5DG9wGp.js": {
+    "file": "assets/preact.module-B5DG9wGp.js",
+    "name": "preact.module"
+  },
+  "fresh:client-entry": {
+    "file": "assets/client-entry-BbGt8ibD.js",
+    "name": "client-entry",
+    "src": "fresh:client-entry",
+    "isEntry": true,
+    "imports": [
+      "_preact.module-B5DG9wGp.js"
+    ]
+  },
+  "islands/Counter.tsx": {
+    "file": "assets/fresh-island__Counter-CNVrlu6C.js",
+    "name": "fresh-island__Counter",
+    "src": "islands/Counter.tsx",
+    "isEntry": true,
+    "imports": [
+      "_preact.module-B5DG9wGp.js"
+    ],
+    "css": [
+      "assets/fresh-island__Counter-BjGR1nPk.css"
+    ]
+  }
+}

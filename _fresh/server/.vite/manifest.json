@@ -1,0 +1,52 @@
+{
+  "_Wrapper-5d7XTgkZ.css": {
+    "file": "assets/Wrapper-5d7XTgkZ.css",
+    "src": "_Wrapper-5d7XTgkZ.css"
+  },
+  "_Wrapper-CHgHy6Av.mjs": {
+    "file": "assets/Wrapper-CHgHy6Av.mjs",
+    "name": "Wrapper",
+    "imports": [
+      "fresh:server_entry"
+    ],
+    "css": [
+      "assets/Wrapper-5d7XTgkZ.css"
+    ]
+  },
+  "fresh-route::_index": {
+    "file": "assets/_fresh-route___index-DIirLmBS.mjs",
+    "name": "_fresh-route___index",
+    "src": "fresh-route::_index",
+    "isDynamicEntry": true,
+    "imports": [
+      "fresh:server_entry",
+      "_Wrapper-CHgHy6Av.mjs"
+    ]
+  },
+  "fresh-route::_page1": {
+    "file": "assets/_fresh-route___page1-Cw8kppPb.mjs",
+    "name": "_fresh-route___page1",
+    "src": "fresh-route::_page1",
+    "isDynamicEntry": true,
+    "imports": [
+      "fresh:server_entry",
+      "_Wrapper-CHgHy6Av.mjs"
+    ],
+    "css": [
+      "assets/_fresh-route___page1-C5eeBO7K.css"
+    ]
+  },
+  "fresh:server_entry": {
+    "file": "server-entry.mjs",
+    "name": "server-entry",
+    "src": "fresh:server_entry",
+    "isEntry": true,
+    "dynamicImports": [
+      "fresh-route::_index",
+      "fresh-route::_page1"
+    ],
+    "css": [
+      "assets/server-entry-BjGR1nPk.css"
+    ]
+  }
+}
